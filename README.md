@@ -29,7 +29,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Hls.js
 
-[https://www.npmjs.com/package/hls.js](https://www.npmjs.com/package/hls.js), 
+[https://www.npmjs.com/package/hls.js](https://www.npmjs.com/package/hls.js)
+
 [https://github.com/video-dev/hls.js/blob/master/docs/API.md](https://github.com/video-dev/hls.js/blob/master/docs/API.md)
 
 ### Plyr
