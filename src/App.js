@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HlsPlayer from './HlsPlayer';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const video_url = "https://prep.uz/video/source/SWcYsjW9WBeJOFAAot46Uw/1631818105/3659/ebkWeZNrE64MNxnBKCYeMF7uKCkCR3UcaRzKv0Uf/enc/playlist.m3u8";
+    return (
+		<div style={{width: 700}}>
+			<HlsPlayer video_url={video_url}/>
+		</div>
+    );
 }
-
 export default App;
